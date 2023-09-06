@@ -1,0 +1,119 @@
+
+
+footer{
+    padding-top: 10px;
+    background-color: aquamarine;
+}
+
+.footer{
+  background-color:aliceblue;
+}
+
+ul li{
+  
+}
+
+.icon{
+  height: 80px;
+  width: 80px;
+
+}
+
+
+html {
+  box-sizing: border-box;
+
+}
+
+.navbar{
+    background-color: blue;
+    height: 45px;
+}
+
+
+.nombre{
+    text-align: center;
+}
+.banner{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    background-image: url(../img/image.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.serv{
+    text-align: center;
+}
+
+.row {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    text-align: center;
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  .column2 {
+    flex:50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  .column2 img {
+    vertical-align: middle;
+    margin-top: 10px;
+    width: 80%;
+  }
+
+
+.column {
+        float: left;
+        width: 50%;
+        }
+
+        h1 {
+            color: dodgerblue;
+        }
+        
+        h2,h3,h4,h5,h6 {
+            color: blue;
+        }
+
+.padding2020{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.links{
+  list-style: none;
+}
+
+
+/* 
+    Responsive
+        Responde a un determinado factor o situación. Es la capacidad que tienen los elementos para ajustar a las ventanas, tanto en tamaño como disposición.
+
+    CSS Puro ((Media Querys)
+        Una regla espacial que se ejecuta solo cuando se cumples ciertas condiciones. Estas condiciones están realcioadas con las características de nuestro dispositivo, como el ancho de la pantalla, la orientación y la resolución.
+
+        La sintazis de una media query es:
+
+        @media(parametros o condiciones a cumplir){
+        estilos que se aplican cuando se cumple la condición
+        }
+
+
+*/
+
+@media(min-width:500px) and (max-width:1024px){
+  body{
+    background-color: honeydew;
+  }
+}
